@@ -435,9 +435,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@identity-box/idbox-react-ui@npm:^0.1.38":
-  version: 0.1.38
-  resolution: "@identity-box/idbox-react-ui@npm:0.1.38"
+"@identity-box/idbox-react-ui@npm:^0.1.39":
+  version: 0.1.39
+  resolution: "@identity-box/idbox-react-ui@npm:0.1.39"
   dependencies:
     qrcode.react: ^3.1.0
   peerDependencies:
@@ -446,18 +446,19 @@ __metadata:
     react-dom: ^18.0.0
     semantic-ui-css: ^2.4.1
     semantic-ui-react: ^2.1.3
-  checksum: 041719331cd8a91c0c82cd7e05c5093aa01695d1ca61318d06c7f18fa47f8668e7c2549d305f1b0e8cac42972142430d28f2fdc32f8f3859226163224b56e7f2
+  checksum: 531a733012209964cd74b3e7cd1812de0c67d49044fcfb3d7ec0da8a134cf855781c6c04296fb8d2267a2571c396778e36f82d2410ddea2dbc228e62bd0e2780
   languageName: node
   linkType: hard
 
-"@identity-box/rendezvous-client@npm:^0.1.38":
-  version: 0.1.38
-  resolution: "@identity-box/rendezvous-client@npm:0.1.38"
+"@identity-box/rendezvous-client@npm:^0.1.39":
+  version: 0.1.39
+  resolution: "@identity-box/rendezvous-client@npm:0.1.39"
   dependencies:
     "@react-frontend-developer/buffers": ^2.0.1
+    base64url: ^3.0.1
     socket.io-client: ^4.5.1
     tweetnacl: ^1.0.3
-  checksum: d762dbbf1d4dc27b84391e87d5a22ab0da0977b0bf06253d982c926a1be45d6117bad800d55225d8d77f681ee0414b498f1fdc92c4335cc19f582938726a8cec
+  checksum: 735a21deea62445fcbc6397671b1e066f8278fcc80b2d49be50cff53a338cecf4aeb46428275238ee97fb3a18b442ae8375707e10889cdf219bb9daca61c5a37
   languageName: node
   linkType: hard
 
@@ -882,10 +883,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.7.8":
-  version: 18.7.8
-  resolution: "@types/node@npm:18.7.8"
-  checksum: e0125efefa896083c05f549d93166109959ffdd68cb626aad0d660c0ce9de888fe405b4763b4a3c3e0968560409c272413e0ad07204522543c688e162a617ecb
+"@types/node@npm:^18.7.10":
+  version: 18.7.10
+  resolution: "@types/node@npm:18.7.10"
+  checksum: 4e9d883762db9d854ba462d89014d4eb4fc90027c33a3573af9e4e7a0fe161f05b7b5382083c9305ce60a5c84622eae42d1bf19c5103859e69b135a2f8278e12
   languageName: node
   linkType: hard
 
@@ -2613,9 +2614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^26.8.4":
-  version: 26.8.4
-  resolution: "eslint-plugin-jest@npm:26.8.4"
+"eslint-plugin-jest@npm:^26.8.7":
+  version: 26.8.7
+  resolution: "eslint-plugin-jest@npm:26.8.7"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -2626,25 +2627,25 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: e15cfc8fd5056e6a4915f6872e5eca217c28fb46b1e0a7bae0bac6af3adf17b7f4a7822e00b0651dc2168251e711bba6f8893f02c8417a4ee2c712d87a19d24d
+  checksum: 4e5e0c781ef48ae7d757123bce3ed28c384f02f3d4cf88d616932c075b625c10f298e905bee988876f62f6688e8e11d0b8ce235fd4b3f6c7006a8725375eac58
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^15.2.4":
-  version: 15.2.4
-  resolution: "eslint-plugin-n@npm:15.2.4"
+"eslint-plugin-n@npm:^15.2.5":
+  version: 15.2.5
+  resolution: "eslint-plugin-n@npm:15.2.5"
   dependencies:
     builtins: ^5.0.1
     eslint-plugin-es: ^4.1.0
     eslint-utils: ^3.0.0
     ignore: ^5.1.1
-    is-core-module: ^2.9.0
+    is-core-module: ^2.10.0
     minimatch: ^3.1.2
-    resolve: ^1.10.1
+    resolve: ^1.22.1
     semver: ^7.3.7
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: dd651651ab76120e45707ee968d846e3ffffb42d1035792fdef6d3b0dcfddf3673bc6a09cb2fac8c5f1d081f14f2a67fc52295d5ed1d2edfb5beead93284eaac
+  checksum: 3be265957b3dda6a049841803335c17689cf98a4b3859eeed3e57b44850b241e7d20640890b2dea7e83816c938fc16274bf78d370f571e211d00d9a3c513f281
   languageName: node
   linkType: hard
 
@@ -3448,15 +3449,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hush-hush@workspace:."
   dependencies:
-    "@identity-box/idbox-react-ui": ^0.1.38
-    "@identity-box/rendezvous-client": ^0.1.38
+    "@identity-box/idbox-react-ui": ^0.1.39
+    "@identity-box/rendezvous-client": ^0.1.39
     "@react-frontend-developer/buffers": ^2.0.1
     "@testing-library/dom": ^8.17.1
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.3.0
     "@testing-library/user-event": ^14.4.3
     "@types/eslint": ^8.4.6
-    "@types/node": ^18.7.8
+    "@types/node": ^18.7.10
     "@types/react": ^18.0.17
     "@types/react-dom": ^18.0.6
     "@typescript-eslint/eslint-plugin": ^5.33.1
@@ -3470,8 +3471,8 @@ __metadata:
     eslint: ^8.22.0
     eslint-config-standard: ^17.0.0
     eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.8.4
-    eslint-plugin-n: ^15.2.4
+    eslint-plugin-jest: ^26.8.7
+    eslint-plugin-n: ^15.2.5
     eslint-plugin-node: ^11.1.0
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-react: ^7.30.1
@@ -3483,7 +3484,7 @@ __metadata:
     react-router-dom: ^6.3.0
     semantic-ui-css: ^2.4.1
     semantic-ui-react: ^2.1.3
-    tailwind-merge: ^1.5.1
+    tailwind-merge: ^1.6.0
     tailwindcss: ^3.1.8
     tsconfig-paths: ^4.1.0
     tweetnacl: ^1.0.3
@@ -3618,7 +3619,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.10.0
   resolution: "is-core-module@npm:2.10.0"
   dependencies:
@@ -5520,7 +5521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^1.5.1":
+"tailwind-merge@npm:^1.6.0":
   version: 1.6.0
   resolution: "tailwind-merge@npm:1.6.0"
   checksum: 4640214bfdd992e8def9bb033388114b5602fcac12d3a0ac8d4fe6ceea1046a452022f809e6ebb38db77225d27e76d851e1af706a167a7f1a2ccd7bf1e589e49
