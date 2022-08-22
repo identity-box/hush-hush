@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: 'Roboto Mono';
-    font-weight: 100 900;
-    src: url('/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2'), url('/fonts/RobotoMono-VariableFont_wght.woff') format('woff');
+  body {
+    @apply text-white bg-black m-0 p-0;
+  }
+  html {
+    @apply m-0 p-0;
   }
   @font-face {
     font-family: 'Roboto Mono';
-    font-weight: 100 900;
-    font-style: italic;
-    src: url('/fonts/RobotoMono-Italic-VariableFont_wght.woff2') format('woff2'), url('/fonts/RobotoMono-Italic-VariableFont_wght.woff') format('woff');
+    font-weight: 200;
+    src: url('/fonts/RobotoMono-VariableFont_wght.ttf') format('ttf')
   }
 }

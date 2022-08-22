@@ -1,20 +1,22 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom'
+import Home from './routes/home'
+import Secret from './routes/secret'
+import 'semantic-ui-css/semantic.min.css'
+import './index.css'
+import { Buffer } from 'buffer'
 
-import App from '~/App'
-import '~/index.css'
+window.Buffer = Buffer
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/secret' element={<Secret />} />
     </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+  </BrowserRouter>
 )
