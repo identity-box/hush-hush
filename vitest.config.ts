@@ -9,6 +9,14 @@ export default defineConfig({
     globals: true,
     environment: 'happy-dom',
     setupFiles: ['./setup-vitest-env.js'],
+    // See:
+    // - https://github.com/vitest-dev/vitest/issues/3411
+    // - https://github.com/vitest-dev/vitest/releases
+    server: {
+      deps: {
+        inline: ['@identity-box/rendezvous-client']
+      }
+    },
     coverage: {
       exclude: [
         '**/dist',
