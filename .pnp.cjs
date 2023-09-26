@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@identity-box/idbox-react-ui", "virtual:9eb8f9d16db2871dc45bc58d4984a26c8fdadfaac7b9dd765d68f1733ac6f80c10bde55418f2d660079a503bbedfb78e260a34cf3ac873e0152c01d60ade70e0#npm:0.1.40"],\
-            ["@identity-box/rendezvous-client", "npm:0.1.40"],\
+            ["@identity-box/rendezvous-client", "npm:0.1.41"],\
             ["@react-frontend-developer/buffers", "npm:2.0.1"],\
             ["@testing-library/dom", "npm:9.3.1"],\
             ["@testing-library/jest-dom", "virtual:9eb8f9d16db2871dc45bc58d4984a26c8fdadfaac7b9dd765d68f1733ac6f80c10bde55418f2d660079a503bbedfb78e260a34cf3ac873e0152c01d60ade70e0#npm:6.0.0"],\
@@ -915,10 +915,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@identity-box/rendezvous-client", [\
-        ["npm:0.1.40", {\
-          "packageLocation": "./.yarn/cache/@identity-box-rendezvous-client-npm-0.1.40-2bbd700ff5-48741acde9.zip/node_modules/@identity-box/rendezvous-client/",\
+        ["npm:0.1.41", {\
+          "packageLocation": "./.yarn/cache/@identity-box-rendezvous-client-npm-0.1.41-5b721f24de-aea0ecdbbd.zip/node_modules/@identity-box/rendezvous-client/",\
           "packageDependencies": [\
-            ["@identity-box/rendezvous-client", "npm:0.1.40"],\
+            ["@identity-box/rendezvous-client", "npm:0.1.41"],\
             ["@react-frontend-developer/buffers", "npm:2.0.1"],\
             ["base64url", "npm:3.0.1"],\
             ["socket.io-client", "npm:4.7.2"],\
@@ -4686,7 +4686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["hush-hush", "workspace:."],\
             ["@identity-box/idbox-react-ui", "virtual:9eb8f9d16db2871dc45bc58d4984a26c8fdadfaac7b9dd765d68f1733ac6f80c10bde55418f2d660079a503bbedfb78e260a34cf3ac873e0152c01d60ade70e0#npm:0.1.40"],\
-            ["@identity-box/rendezvous-client", "npm:0.1.40"],\
+            ["@identity-box/rendezvous-client", "npm:0.1.41"],\
             ["@react-frontend-developer/buffers", "npm:2.0.1"],\
             ["@testing-library/dom", "npm:9.3.1"],\
             ["@testing-library/jest-dom", "virtual:9eb8f9d16db2871dc45bc58d4984a26c8fdadfaac7b9dd765d68f1733ac6f80c10bde55418f2d660079a503bbedfb78e260a34cf3ac873e0152c01d60ade70e0#npm:6.0.0"],\

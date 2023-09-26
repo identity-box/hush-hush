@@ -628,15 +628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@identity-box/rendezvous-client@npm:^0.1.40":
-  version: 0.1.40
-  resolution: "@identity-box/rendezvous-client@npm:0.1.40"
+"@identity-box/rendezvous-client@npm:^0.1.41":
+  version: 0.1.41
+  resolution: "@identity-box/rendezvous-client@npm:0.1.41"
   dependencies:
     "@react-frontend-developer/buffers": ^2.0.1
     base64url: ^3.0.1
     socket.io-client: ^4.7.2
     tweetnacl: ^1.0.3
-  checksum: 48741acde9593f0aeaac15f0d421718b1e2879d0595bd263c75b4d90c05d667c5b3598d8f8b3b164fe7de66deb41907a31dcd361bd186ec4928185db2fe8c796
+  checksum: aea0ecdbbd90db7e43947c05f39190f241f3a276b484d71c1442ab6d91ef1134076fc8ad965049bfc33dcdb725c528912edf57fe8a1546c3e95b1b9b6797e0ee
   languageName: node
   linkType: hard
 
@@ -3745,7 +3745,7 @@ __metadata:
   resolution: "hush-hush@workspace:."
   dependencies:
     "@identity-box/idbox-react-ui": ^0.1.40
-    "@identity-box/rendezvous-client": ^0.1.40
+    "@identity-box/rendezvous-client": ^0.1.41
     "@react-frontend-developer/buffers": ^2.0.1
     "@testing-library/dom": ^9.3.1
     "@testing-library/jest-dom": ^6.0.0
